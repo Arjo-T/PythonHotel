@@ -108,7 +108,6 @@ blockquote cite:before{
 }
 
 .bundle-deals{
-    .center-container {
     display: flex;
     justify-content: center; /* Centers content horizontally */
     align-items: center;    /* Centers content vertically */
