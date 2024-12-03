@@ -3,6 +3,47 @@
 @import 'global.css';
 @import 'main.css';
 
+
+* {
+text-align: center;
+padding-top: 3px; 
+padding-bottom: 3px;
+}
+
+  header {
+    background-color: black;
+}
+
+.navbar{
+ font-family:Verdana, Geneva, Tahoma, sans-serif; 
+ padding-right: 15px; 
+ padding-left: 15px;
+}
+   
+    li{
+    list-style: none; 
+    display:inline-block;
+    }
+    
+    li a{
+      color: white; font-size:18px; 
+      font-weight: bold; 
+      margin-right: 25px; 
+      margin-left: 25px;
+    }
+
+    a:link { 
+  text-decoration: none; 
+} 
+
+nav {
+    height: 50px;
+}
+
+nav li a:hover {
+    color:darkgray;
+}
+
 .fa-row {
    background-color: var(--dominantColor) !important;
    padding: 35px;
