@@ -33,6 +33,13 @@
    margin-right: auto;
 
 }
+.first-paragraph-div {
+    position: relative;
+  max-width: 800px; 
+  margin: auto;
+  overflow: hidden;
+}
+
 
 /* Table */
 .content-table {
