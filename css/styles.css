@@ -44,6 +44,24 @@ nav li a:hover {
     color:darkgray;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: var(--dominantColor) !important;
+}
+
+.navbar {
+  background-color: #ffffff!important;
+}
+
+.nav-link {
+  font-size: 20px !important;
+  color:darkolivegreen !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
 .fa-row {
    background-color: var(--dominantColor) !important;
    padding: 35px;
