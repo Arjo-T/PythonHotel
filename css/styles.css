@@ -1,28 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'global.css';
 @import 'main.css';
-
-.header{
-  padding:20px;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  position:fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  box-shadow: 0rem .5rem .5rem rgb(0, 0, 0, .1);
-}
-
-.header .navbar a{
-  font-size: 1.7rem;
-  margin-left: 1.5rem;
-color:#000000
-}
-
-.header .navbar a:hover{
- color:darkgray
-}
 
 .fa-row {
    background-color: var(--dominantColor) !important;
@@ -52,6 +31,7 @@ color:#000000
    font-family: "Inter Tight", serif;
    margin-left: auto;
    margin-right: auto;
+}
 
 
 
@@ -103,8 +83,6 @@ color:#000000
   padding-bottom: 30px;
 
  }
-
-
 
  @media screen and (max-width:768px) {
 
