@@ -103,8 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   padding: 20px;
   height: auto;
-  margin-top: 20;
-  margin-bottom: 20px;
+  margin: auto;
   font-family: "Inter Tight", serif;
   margin-left: auto;
   margin-right: auto;
