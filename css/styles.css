@@ -123,9 +123,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text {
- font-size: 30px;
+ max-width: 50%; 
  background-color: beige;
- margin-bottom: 20px;
+ margin: auto;
 }
 
 .image img {
