@@ -13,6 +13,22 @@
   background-color: #ffffff;
 }
 
+blockquote {
+  color: cadetblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+blockquote > p {
+  display:inline;
+}
+blockquote:before {
+  content: '“';
+}
+blockquote:after {
+  content: '”';
+}
+
 .material-symbols-outlined, .material-symbols-outlined a {
 font-size: 60px;
 color: #AFDBF5!important;
