@@ -127,14 +127,11 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .text {
-align-items: center; 
-margin-bottom: 5px;
-padding-top: 3px; 
-padding-bottom: 3px;
+margin-top: 1em;
+margin-bottom: 1em;
+color: beige;
 }
-h2 {
-margin-bottom: 10px;
-}
+
   
 
 
