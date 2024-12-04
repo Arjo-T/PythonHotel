@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .first-paragraph-div {
    position: relative;
+   display: flex;
    background-color: #ffffff;
    color: #000000;
    font-weight: normal;
@@ -94,7 +95,21 @@ h1, h2, h3, h4, h5, h6 {
    margin-left: auto;
    margin-right: auto;
 }
-
+.text {
+    max-width: 50%; 
+    text-align: center;
+    background-color: beige;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .image img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 0px; 
+  }
 
 
 /* Table */
