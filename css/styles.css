@@ -123,12 +123,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text {
-  max-width: 50%; 
-  background-color: beige;
+ font-size: 12px;
+ background-color: beige;
+ margin-top: 18px;
+ margin-bottom: 20px;
 }
 
 .image img {
-  max-width: 100%; 
+  max-width: 200%; 
   height: auto; 
 }
 
