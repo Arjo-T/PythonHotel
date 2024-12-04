@@ -45,7 +45,7 @@ nav li a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--dominantColor) !important;
+  color: #AFDBF5!important;
   padding: 50px;
 }
 
