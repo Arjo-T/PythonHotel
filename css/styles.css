@@ -127,9 +127,10 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .text {
- display: flex;
 align-items: center; 
 margin-bottom: 5px;
+padding-top: 3px; 
+padding-bottom: 3px;
 }
 
 
