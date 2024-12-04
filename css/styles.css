@@ -130,9 +130,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text {
-  max-width: 50%; 
-  margin: auto;
-  background-color: beige;
+ text-align: center; 
+ background-color: beige;
+ 
 }
 
 .image img {
