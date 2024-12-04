@@ -21,18 +21,17 @@ top: 0px;
 text-decoration: none;
 }
 
-body {
-  height:100vh;
-  margin:0;
-  display:grid;
-  place-items:center;
-  font:900 1.5rem/1.8 system-uni, sans-serif;
-}
-
 blockquote {
- max-inline-size: 40ch;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-style: normal;
+ color: black;
+  max-inline-size: 40ch;
   text-wrap: balance;
   & cite{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: italic;
+   font-weight: bold;
+   color: black;
     display: block;
     text-indent: 3ch;
     opacity: 0.5;
