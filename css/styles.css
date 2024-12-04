@@ -123,6 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 display: flex;
 background-color: #ffffff;
 color: #000000;
+font-family: 'Times New Roman', Times, serif;
 }
 
 .text {
