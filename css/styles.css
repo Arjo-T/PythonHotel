@@ -21,6 +21,27 @@ top: 0px;
 text-decoration: none;
 }
 
+blockquote:after {
+  content: "”";
+}
+
+blockquote:before {
+  content: "“";
+}
+
+blockquote {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0 20px;
+  color:#73C2FB; 
+}
+
+q, blockquote {
+  font-family: "Times New Roman",Times,serif;
+  font-style: italic;
+  quotes: "“" "”" "‘" "’";
+}
+
 * {
 text-align: center;
 padding-top: 3px; 
