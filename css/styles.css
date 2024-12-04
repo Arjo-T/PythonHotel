@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .first-paragraph-div {
-display: flex;
+position: relative;
 background-color: #ffffff;
 color: #000000;
 font-family: 'Times New Roman', Times, serif;
@@ -132,6 +132,10 @@ margin-bottom: 5px;
 padding-top: 3px; 
 padding-bottom: 3px;
 }
+h2 {
+margin-bottom: 10px;
+}
+  
 
 
 /* Table */
