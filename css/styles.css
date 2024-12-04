@@ -121,15 +121,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .first-paragraph-div {
 Position: relative;
-background-color: #c1b59c;
+background-color: #ffffff;
 color: #000000;
 font-weight: normal;
 font-size: 16px;
 padding: 20px;
 height: auto;
-margin-top: 20px;
+margin-top: 18px;
 margin-bottom: 18px;
 font-family: 'Times New Roman', Times, serif;
+text-align: center;
 margin-left: auto;
 margin-right: auto;
 }
