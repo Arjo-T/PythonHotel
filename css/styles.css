@@ -262,3 +262,54 @@ h1, h2, h3, h4, h5, h6 {
   height: 300px;
   border-radius: 50%;
 }
+
+
+
+/* Full-page layout for About Our Hotel */
+#about-our-hotel.full-page {
+  display: flex; /* Flexbox for centering */
+  align-items: center; /* Vertical alignment */
+  justify-content: center; /* Horizontal alignment */
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4; /* Background color for the section */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in size */
+}
+
+#about-our-hotel .container {
+  max-width: 1200px; /* Set a max width for content */
+  width: 100%; /* Ensure full width */
+  text-align: center; /* Center-align text */
+}
+
+#about-our-hotel .row {
+  display: flex; /* Flex layout for row */
+  flex-wrap: wrap; /* Wrap content for smaller screens */
+  align-items: center; /* Align items vertically */
+}
+
+#about-our-hotel .col-12 {
+  flex: 1 1 50%; /* Columns take 50% of the row's width */
+  padding: 10px;
+}
+
+#about-our-hotel .text-content {
+  text-align: left; /* Align text to the left */
+}
+
+#about-our-hotel .image-content img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  #about-our-hotel .col-12 {
+    flex: 1 1 100%; /* Full width for small screens */
+  }
+
+  #about-our-hotel .text-content {
+    text-align: center; /* Center-align text on small screens */
+  }
+}
