@@ -130,6 +130,14 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     background-color: #f4f4f4; /* Optional background color */
   }
+
+  .full-width-container {
+    width: 100vw; /* Full width of the viewport */
+    background-color: #f4f4f4; /* Matches the body background */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  }
   
   .container {
     display: flex;
