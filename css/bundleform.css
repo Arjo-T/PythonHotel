@@ -1,25 +1,39 @@
-.bundleform{
-    position: relative;
-    margin: auto;
-    background-color: var(--dominantColor) !important;
-    padding: 30px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.35); /* vertical,horizontal, blur, srpead, color+opacity */
-    border-radius: 10px;
-    width: 75%;
-}
-
-.webform div {
+.bundleform {
+    width: 400px; /* Adjust form width */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding inside the form container */
+    border: 2px solid black; /* Add black border around the form box */
+    border-radius: 8px; /* Optional: Rounded corners for the form box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for better appearance */
+    background-color: #f9f9f9; /* Optional: Light background color for contrast */
+  }
+  
+  form label {
+    display: block;
     margin-top: 10px;
-}
-
-#custom {
-    display: none;
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
     margin-top: 5px;
-}
-
-.radio, .checkbox {
-    width: 20px !important;
-    height: 20px !important;
-}
+    border: 2px solid red; /* Red border for inputs */
+    border-radius: 4px;
+  }
+  
+  form button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
