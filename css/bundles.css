@@ -10,6 +10,7 @@ body {
 }
 
 .bundle-packages {
+    background-color: #f6f8fa;
     display: flex;
     justify-content: center;
     align-items: center;
