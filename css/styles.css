@@ -320,3 +320,97 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center; /* Center-align text on small screens */
   }
 }
+
+
+
+@import 'global.css';
+@import 'main.css';
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #AFDBF5; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bundle-packages {
+    background-color: #f6f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.packages {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.package {
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+.basic {
+    background-color: #e0f7fa; /* Light cyan for Basic package */
+}
+
+.premium {
+    background-color: #ffe0b2; /* Light orange for Premium package */
+}
+
+.package h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.package ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.package ul li {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.customize {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background for Customize */
+}
+
+.customize h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.customize p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+@media (min-width: 768px) {
+    .packages {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .customize {
+        grid-column: span 2;
+    }
+}
+
