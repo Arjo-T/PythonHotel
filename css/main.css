@@ -108,6 +108,7 @@ blockquote cite:before{
 }
 
 .bundle-packages{
+    background-color: #f6f8fa;
     * {
         margin: 0;
         padding: 0;
